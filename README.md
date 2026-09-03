@@ -1,10 +1,10 @@
-# AUS200 1d OHLCV Stock index Historical Data — Free Sample
+# AUS200 1d OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-7_883_rows-blue)](https://getdata.finance/datasets/aus200) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/aus200)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-9_295_rows-blue)](https://getdata.finance/datasets/aus200) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/aus200)
 
 ### -> [**Download the full AUS200 dataset on getdata.finance**](https://getdata.finance/datasets/aus200)
 
-**AUS200 1d OHLCV stock index historical data** — ultra high-quality 1d OHLCV for **Australia 200**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**AUS200 1d OHLCV index historical data** — ultra high-quality 1d OHLCV for **S&P/ASX 200**. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,13 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 1d OHLCV** for **Australia 200** (Stock index)
-- **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
-- **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/aus200) · **7,883** `1m` rows in the full archive
+- **Ultra high-quality 1d OHLCV** for **S&P/ASX 200** (Index)
+- **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
+- **Free evaluation sample** on GitHub (`1d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/aus200) · **9,295** `1d` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1d` sample updated in sync
 
-> **Sample on GitHub** · `AUS200_1d.csv` (7,883 rows, `1992-06-01` -> `2026-08-01`). **Full archive on [getdata.finance](https://getdata.finance/datasets/aus200)** — **7,883** `1m` rows (~0.54 MB), **11 timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W), `1992-06-01` -> `2026-08-01`.
+> **Sample on GitHub** · `AUS200_1d.csv` (53 rows, `2026-07-02` -> `2026-09-01`, 3.38 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/aus200)** — **9,295** `1d` rows (full `1m`: 5,275,014), **11 timeframes**, `1992-06-01` -> `2026-09-01`.
 
 ## Download sample
 
@@ -44,11 +43,11 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 | | **Sample (this repo)** | **Full dataset ([getdata.finance](https://getdata.finance/datasets/aus200))** |
 |---|--:|---|
-| Instrument | Australia 200 · Stock index | Australia 200 · Stock index |
+| Instrument | S&P/ASX 200 · Index | S&P/ASX 200 · Index |
 | Timeframes | `1d` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1m rows | 7,883 | **7,883** |
-| Size | 0.55 MB | ~0.54 MB |
-| Period | `1992-06-01` -> `2026-08-01` | `1992-06-01` -> `2026-08-01` |
+| 1d rows | 53 | **9,295** |
+| Size | 3.38 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/aus200) |
+| Period | `2026-07-02` -> `2026-09-01` | `1992-06-01` -> `2026-09-01` |
 | File | `AUS200_1d.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/aus200) |
 | Coverage report | — | [AUS200 coverage](https://getdata.finance/coverage/aus200) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -57,7 +56,7 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 This GitHub repository ships a **`1d` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/aus200)**, each full asset archive is delivered as a ZIP with **11 gap-free OHLCV timeframes** (one CSV per timeframe):
 
-**1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **4H** · **12H** · **1D** · **3D** · **1W**
+**1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W**
 
 GitHub = `1d` sample · [getdata.finance](https://getdata.finance/datasets/aus200) = all **11** timeframes above for the same instrument.
 
@@ -74,29 +73,29 @@ First and latest rows from the GitHub sample **`AUS200_1d.csv`**:
 
 **First rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 1992-06-01T00:00:00+00:00 | 1704.6 | 1704.6 | 1704.6 | 1704.6 | 0 |
-| 1992-06-02T00:00:00+00:00 | 1704.6 | 1704.6 | 1704.6 | 1704.6 | 0 |
-| 1992-06-03T00:00:00+00:00 | 1704.6 | 1704.6 | 1704.6 | 1704.6 | 0 |
-| 1992-06-04T00:00:00+00:00 | 1704.6 | 1704.6 | 1704.6 | 1704.6 | 0 |
-| 1992-06-05T00:00:00+00:00 | 1704.6 | 1704.6 | 1704.6 | 1704.6 | 0 |
+| 2026-07-02T00:00:00+00:00 | 8771.21 | 8859.76 | 8756.74 | 8807.85 | 13904 |
+| 2026-07-03T00:00:00+00:00 | 8771.21 | 8859.76 | 8756.74 | 8807.85 | 13904 |
+| 2026-07-05T00:00:00+00:00 | 8807.85 | 8866.88 | 8807.85 | 8831.67 | 14006 |
+| 2026-07-06T00:00:00+00:00 | 8831.67 | 8848.02 | 8760.9 | 8763.9 | 20536 |
+| 2026-07-07T00:00:00+00:00 | 8763.9 | 8782.9 | 8629.39 | 8725.19 | 42012 |
 
 **Last rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-28T00:00:00+00:00 | 8823.46 | 9000.59 | 8807.57 | 8980.87 | 27512 |
-| 2026-07-29T00:00:00+00:00 | 8980.87 | 9049.01 | 8960.59 | 9022.09 | 15371 |
-| 2026-07-30T00:00:00+00:00 | 9022.09 | 9062.95 | 8979.43 | 9038.04 | 18191 |
-| 2026-07-31T00:00:00+00:00 | 9038.04 | 9150.24 | 9035.72 | 9070.52 | 31817 |
-| 2026-08-01T00:00:00+00:00 | 8990.95 | 9009.17 | 8989.46 | 9008.67 | 383 |
+| 2026-08-27T00:00:00+00:00 | 9031.87 | 9037.08 | 9000.58 | 9026.07 | 7304 |
+| 2026-08-28T00:00:00+00:00 | 9089.41 | 9109.61 | 9026.6 | 9053.62 | 14681 |
+| 2026-08-30T00:00:00+00:00 | 9053.62 | 9125.28 | 9032.86 | 9051.67 | 15416 |
+| 2026-08-31T00:00:00+00:00 | 9051.67 | 9068.32 | 8989.84 | 9006.33 | 9778 |
+| 2026-09-01T00:00:00+00:00 | 9049.63 | 9062.32 | 8926.5 | 8957.99 | 20766 |
 
 ## Schema
 
 | Column | Description |
 | --- | --- |
-| `datetime` | Bar open timestamp (UTC, ISO-8601). |
+| `time` | Bar open timestamp (UTC, ISO-8601). |
 | `open` | Opening price of the candlestick bar. |
 | `high` | Highest price during the bar. |
 | `low` | Lowest price during the bar. |
@@ -104,7 +103,7 @@ First and latest rows from the GitHub sample **`AUS200_1d.csv`**:
 | `volume` | Tick volume (number of price updates) during the bar. |
 
 ```text
-datetime,open,high,low,close,volume
+time,open,high,low,close,volume
 ```
 
 ## Code examples
@@ -114,11 +113,9 @@ datetime,open,high,low,close,volume
 ```python
 import pandas as pd
 
-df = pd.read_csv('AUS200_1d.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('AUS200_1d.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 print(df.describe())
-print(df.resample('1h').agg({'open': 'first', 'high': 'max',
-                              'low': 'min', 'close': 'last', 'volume': 'sum'}).head())
 ```
 
 ### backtrader
@@ -127,8 +124,8 @@ print(df.resample('1h').agg({'open': 'first', 'high': 'max',
 import backtrader as bt
 import pandas as pd
 
-df = pd.read_csv('AUS200_1d.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('AUS200_1d.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 
 class PandasData(bt.feeds.PandasData):
     params = (('datetime', None), ('open', 'open'), ('high', 'high'),
@@ -146,20 +143,20 @@ cerebro.adddata(PandasData(dataname=df))
 import pandas as pd
 import vectorbt as vbt
 
-df = pd.read_csv('AUS200_1d.csv', parse_dates=['datetime'])
-close = df.set_index('datetime')['close']
+df = pd.read_csv('AUS200_1d.csv', parse_dates=['time'])
+close = df.set_index('time')['close']
 fast, slow = vbt.MA.run(close, 10), vbt.MA.run(close, 50)
 entries = fast.ma_crossed_above(slow)
 exits = fast.ma_crossed_below(slow)
-pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1min')
+pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1d')
 print(pf.stats())
 ```
 
 ## Download full data
 
-The complete **AUS200** archive on **[getdata.finance](https://getdata.finance/datasets/aus200)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **7,883** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **AUS200** archive on **[getdata.finance](https://getdata.finance/datasets/aus200)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **9,295** rows at `1d`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full AUS200 dataset on getdata.finance](https://getdata.finance/datasets/aus200)**
 
 ---
-*GetData · AUS200 1d OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/aus200) · 2026-08-05 UTC*
+*GetData · AUS200 1d OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/aus200)*
